@@ -1,0 +1,53 @@
+.off{
+    background-color: red;
+}
+.on{
+    background-color: rgb(77, 196, 8);
+   
+    
+    
+}
+.circle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+  }
+  
+.friendlist{
+    list-style: none;
+    display: grid;
+    place-items: center;
+    gap: 10px;
+  
+}
+
+.item{
+background-color: aliceblue;
+width: 300px;
+border-radius: 20px ;
+}
+.AvatarOn{
+    margin-left: 30px;
+    margin-top: 34px;
+    background-color: rgb(116, 255, 35);
+    border-radius: 50%;
+    
+}
+.AvatarOff{
+    margin-left: 30px;
+    margin-top: 34px;
+    background-color: rgb(255, 35, 35);
+    border-radius: 50%;
+    
+}
+.name{
+    position: relative;
+    left: 120px;
+    bottom: 62px;
+    font-size: 20px;
+    font-weight: 600;
+}
